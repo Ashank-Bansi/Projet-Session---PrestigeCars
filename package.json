@@ -1,0 +1,28 @@
+{
+  "name": "projet-session---prestigecars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashank-Bansi/Projet-Session---PrestigeCars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashank-Bansi/Projet-Session---PrestigeCars/issues"
+  },
+  "homepage": "https://github.com/Ashank-Bansi/Projet-Session---PrestigeCars#readme",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "vite": "^7.1.4"
+  }
+}
