@@ -84,6 +84,13 @@ const LoginForm = () => { // state pour gérer l'animation du chargement (login)
                             <input
                             name="email"
                             type="email"
+                            placeholder="Courriel"
+                            required/>
+                        </div>
+                        <div>
+                            <input
+                            name="mdp"
+                            type="password"
                             placeholder="Mot de passe"
                             required/>
                         </div>
@@ -91,6 +98,11 @@ const LoginForm = () => { // state pour gérer l'animation du chargement (login)
                         {invalidEntries && (
                             <div className="control-error">
                                 <p> Email ou mot de passe incorrect</p>
+                            </div>
+                        )}
+                        {validEntries && (
+                            <div className="control-valid">
+                                <p> Succès connexion</p>
                             </div>
                         )}
 
